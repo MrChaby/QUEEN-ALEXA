@@ -1,2 +1,2 @@
-# QUEEN-ALEXA
+# QUEEN-ALEXA ©
 ⦁═Queen 👸 Alexa═⦁
