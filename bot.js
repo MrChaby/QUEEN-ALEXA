@@ -249,7 +249,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '\n\n*JulieMwol Working as Private! 🧞‍♂️*\n\n', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, '\n\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n*⦁◊═⦁QUEEN 👸 ALEXA⦁═◊⦁*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n```🧙Working as Private!```\n```🧙Don't try command in this```\n*ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*\n```Copyright © QUEEN ALEXA 2021```\n', MessageType.text);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
@@ -482,8 +482,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     , MessageType.text, {detectLinks: false});
 
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [WHATSASENA] ⚕️*' + 
-                                        '\n========== ```Hata Okundu!``` ==========' +
+                                    return await conn.sendMessage(conn.user.jid, '*⛔Error 404*\n*[QUEEN-alexa]*' + 
+                                        '\n======= ```Error``` =======' +
                                         '\n\n*Ana Hata:* _Only Absolutely URLs Supported_' +
                                         '\n*Nedeni:* _Medya araçlarının (xmedia, sticker..) LOG numarasında kullanılması._' +
                                         '\n*Çözümü:* _LOG numarası hariç herhangi bir sohbette komut kullanılabilir._'
