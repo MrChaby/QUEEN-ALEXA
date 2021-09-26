@@ -1,7 +1,7 @@
 {
-    "name": "JulieMwol",
-    "description": "JulieMwol project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://avatars.githubusercontent.com/u/83164448?v=4",
+    "name": "⦁═Queen 👸 Alexa═⦁",
+    "description": "Alexa project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
+    "logo": "https://telegra.ph/file/4b978de48c417dc1f4cb1.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/En-Cuzier/QUEEN-ALEXA",
     "website":   "https://t.me/farhan-dqz",
@@ -86,7 +86,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "```I am Alive```\n\n```Coded By Farhan_Dqz```"
+            "value": "*Hey buddy*\n```i'm still clicking alive now```\n*●Author En cuzier*\n*🧙Thank you for using🧙*\n*queen alexa*"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
