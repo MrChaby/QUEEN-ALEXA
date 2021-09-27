@@ -204,7 +204,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '\n\n*JulieMwol Working as Public! 🧞‍♂️*\n\n', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, '\n*⦁═Queen 👸 Alexa═⦁*\n\n```🔹Queen alexa working as public```\n\n*[ Copyright by © QUEEN ALEXA ]*\n', MessageType.text);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
@@ -216,7 +216,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                            degisiklikler += '🎫️️ [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
                         }
                     );
         
@@ -240,7 +240,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                            degisiklikler += '🎫️️ [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
                         }
                     );
                     await conn.sendMessage(
@@ -261,7 +261,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                            degisiklikler += '🎫️️ [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
                         }
                     );
         
@@ -605,7 +605,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     , MessageType.text, {detectLinks: false}
                                 );
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*♻️ ERROR ANALYSIS [Farhan-Dqz] ♻️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕ ERROR ANALYSIS [En-Cuzier] ⚕*' + 
                                         '\n== ```Error Resolved!``` ==' +
                                         '\n\n*Main Error:* _Only Absolutely URLs Supported_' +
                                         '\n*Reason:* _The usage of media tools (xmedia, sticker..) in the LOG number._' +
@@ -614,7 +614,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('conversation')) {
-                                    return await conn.sendMessage(conn.user.jid, '*♻️ ERROR ANALYSIS [Farhan-Dqz] ♻️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕ ERROR ANALYSIS [ᴇɴ-ᴄᴜᴢɪᴇʀ] ⚕*' + 
                                         '\n== ```Error Resolved!``` ==' +
                                         '\n\n*Main Error:* _Deleting Plugin_' +
                                         '\n*Reason:* _Entering incorrectly the name of the plugin wanted to be deleted._' +
@@ -623,7 +623,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*♻️ ERROR ANALYSIS [Farhan-Dqz] ♻️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕ ERROR ANALYSIS [En-Cuzier] ⚕*' + 
                                         '\n== ```Error Resolved!``` ==' +
                                         '\n\n*Main Error:* _Split of Undefined_' +
                                         '\n*Reason:* _Commands that can be used by group admins occasionally dont see the split function._ ' +
