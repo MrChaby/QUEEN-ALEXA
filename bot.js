@@ -204,7 +204,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '\n*⦁═Queen 👸 Alexa═⦁*\n\n```🔹Queen alexa working as public```\n\n*[ Copyright by © QUEEN ALEXA ]*\n', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, fs.readFileSync("./photos/chamodya2.png"), MessageType.image, { caption: '\n*⦁═Queen 👸 Alexa═⦁*\n\n```🔹Queen alexa working as public```\n\n*[ Copyright by © QUEEN ALEXA ]*\n'});
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
@@ -249,7 +249,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '\n\n*JulieMwol Working as Private! 🧞‍♂️*\n\n', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, fs.readFileSync("./photos/chamodya2.png"), MessageType.image, { caption: '\n*⦁═Queen 👸 Alexa═⦁*\n\n```🔹Queen alexa working as private```\n\n*[ Copyright by © QUEEN ALEXA ]*\n'});
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
