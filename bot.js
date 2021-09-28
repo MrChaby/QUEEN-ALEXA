@@ -1,10 +1,4 @@
-/* Copyright (C) 2020 Yusuf Usta.
-
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-
-WhatsAsena - Yusuf Usta
-*/
+//https://github.com/En-Cuzier/QUEEN-ALEXA
 
 const fs = require("fs");
 const path = require("path");
@@ -204,7 +198,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '\n*⦁═Queen 👸 Alexa═⦁*\n\n```🔹Queen alexa working as public```\n\n*[ Copyright by © QUEEN ALEXA ]*\n', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, fs.readFileSync("./photos/chamodya2.png"), MessageType.image, { caption: '\n*⦁═Queen 👸 Alexa═⦁*\n\n```🔹Queen alexa working as public```\n\n*[ Copyright by © QUEEN ALEXA ]*\n'});
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
@@ -249,7 +243,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '\n\n*JulieMwol Working as Private! 🧞‍♂️*\n\n', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, fs.readFileSync("./photos/chamodya2.png"), MessageType.image, { caption: '\n*⦁═Queen 👸 Alexa═⦁*\n\n```🔹Queen alexa working as private```\n\n*[ Copyright by © QUEEN ALEXA ]*\n'});
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
