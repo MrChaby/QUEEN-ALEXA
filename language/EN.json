@@ -1,4 +1,4 @@
-{
+ᵉ{
     "__ASENAJSON__": true,
     "LANGUAGE": "English",
     "LANGCODE": "en",
@@ -27,9 +27,9 @@
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
-            "IM_NOT_ADMIN": "*njan admin alla macha☹️*",
-            "BANNED": "Mwonu Ok Bie!",
-            "GIVE_ME_USER": "*arelum mention chey😈!*",
+            "IM_NOT_ADMIN": "*ɪ ᴀᴍ ɴᴏᴛ ᴀᴅᴍɪɴ ☹️*",
+            "BANNED": "*ʀᴇᴍᴏᴠᴇᴅ ʙʏ ǫᴜᴇᴇɴ ᴀʟᴇxᴀ*",
+            "GIVE_ME_USER": "*ɢɪᴠᴇ ᴍᴇ ᴀ ᴜꜱᴇʀ!*",
             "ADD_DESC": "Adds someone to the group.",
             "ADDED": "added to the group!",
             "ALREADY_PROMOTED": "```Avan admin anu nenpa🙃```",
@@ -72,9 +72,9 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart WhatsAsena",
+            "RESTART_DESC": "Restart ⚙",
             "RESTART_MSG": "```Restarting...```",
-            "SHUTDOWN_DESC": "Shutdown WhatsAsena",
+            "SHUTDOWN_DESC": "*Shutdown Queen Alexa*",
             "SHUTDOWN_MSG": "```Shutting down ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
@@ -186,7 +186,7 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song Naadan Vibe```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "\n*Searching your song 🤗*\n",
+            "DOWNLOADING_SONG": "👸\n*Searching*\n",
             "UPLOADING_SONG": "\n*Uploading 📲 Use 🎧*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
@@ -195,7 +195,7 @@
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
-            "NOT_FOUND": "*Thappinokeett kittiyilla ☹️*",
+            "NOT_FOUND": "*Not fpund ⚕*",
             "SEARCHING": "*🔎 Searching...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
@@ -204,7 +204,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Nissaram 🤠```"
+            "DOWNLOADING": "*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*\n*ALEXA CREATED STICKER*\n*◄━━━━━━━⦁⦁◯⦁⦁━━━━━━━━►*"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -219,11 +219,11 @@
             "UPDATE": "*Your bot is completely up-to-date!*",
             "NEW_UPDATE": "*JulieMwol Update Available*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "```Updating..🐥```",
+            "UPDATING": "```⚙ Updating alexa ⚙```",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*Updated 🤠✅*",
+            "UPDATED": "*Updated➤🧙*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*👰 JulieMwol Restarting ?*"
+            "AFTER_UPDATE": "*👰 alexa Restarting ?*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
